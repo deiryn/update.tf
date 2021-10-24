@@ -1,0 +1,68 @@
+/* CSS Document */
+
+body {
+	background-color: #000;
+	margin: 0px;
+	padding: 0px;
+}
+/*
+h1 {
+	color: white;
+}
+*/
+
+#time {
+	color: black;
+	position: absolute;
+	top: 250px;
+	width: 188px;
+	font-size: 82px;
+	font-family: "Comic Sans MS", cursive, sans-serif; /* I know you will hate me for this */
+ }
+
+@media screen and (min-width: 1700px) and (max-width: 2199px) {
+	.container-time 
+	{
+		left: 29%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1699px) {
+	.container-time {
+			left: 23%;
+	}
+}
+
+@media screen and (max-width: 987px) 
+{
+	.container-time {
+		left: 8%;
+    }
+}
+
+@media screen and (min-width: 2200px) 
+{
+	.container-time {
+		left: 35%;
+    }
+}
+
+#bg {
+	height: 809px;
+	background-image: url(images/dayssinceupdate.png);
+}
+
+.bg-wrapper {
+	position: relative;
+	width: 100%;
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: #fff;
+	overflow: hidden;
+}
+
+#container {
+	position: relative;
+	box-shadow: none;
+	border: none;
+}
