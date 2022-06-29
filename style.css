@@ -26,6 +26,7 @@ body {
 	background-color: #000;
 	margin: 0px;
 	padding: 0px;
+	background-image: url(images/background.png);
 }
 /*
 h1 {
@@ -87,4 +88,11 @@ h1 {
 	position: relative;
 	box-shadow: none;
 	border: none;
+}
+
+.unselectable {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
